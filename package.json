@@ -2,7 +2,7 @@
   "name": "learn-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://omer5423.github.io/omer-design",
+  "homepage": "http://omer5423.github.io/gatedesign",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",

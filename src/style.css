@@ -1,0 +1,50 @@
+body
+{
+    font-family: 'Baloo Bhaijaan 2', cursive !important;
+    min-height: 100vh;
+}
+.loading
+{
+    padding-top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner1 {
+  align-items: center;
+  border: .6em solid transparent;
+  border-top: .6em solid #4DB6AC;
+  border-right: .6em solid #4DB6AC;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinnerMax {
+  animation: spinnerOne 3s linear infinite;
+  height: 6em;
+  width: 6em;
+}
+
+.spinnerMid {
+  animation: spinnerOne 5s linear infinite;
+  height: 4.8em;
+  width: 4.8em;
+}
+
+.spinnerMin {
+  animation: spinnerOne 5s linear infinite;
+  height: 3.6em;
+  width: 3.6em;
+}
+
+@keyframes spinnerOne {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}
+/* Spinner 1 ends here */

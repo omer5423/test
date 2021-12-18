@@ -1,0 +1,58 @@
+/* .add
+{
+    padding-top: 100px;
+    position: relative;
+}
+.wraper
+{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: black;
+    opacity: .7;
+    z-index: 33;
+}
+.alert-add
+{
+    position: absolute;
+    top: 100px;
+    right: 400px;
+    left: 400px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 333;
+}
+.head-add
+{
+    display: flex;
+    justify-content: space-between;
+}
+.add h2
+{
+    display: inline-block;
+}
+.add .fa-times
+{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: gray !important;
+}
+.add form
+{
+    display: block;
+}
+.add form input
+{
+    padding: 10px;
+}
+.add .btn-primary
+{
+    width: 100%;
+    font-size: 16px !important;
+    text-transform: capitalize;
+} */

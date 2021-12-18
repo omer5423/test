@@ -1,0 +1,50 @@
+.footer
+{
+    background-color: #040c2c;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    background: #040c2c;
+    text-align: center;
+    padding: 60px 0;
+    padding-top: 20px;
+    margin-bottom: 0px !important;
+}
+.footer .copy-writer
+{
+    color: white;
+    font-size: 18px;
+}
+.footer .copy-writer span
+{
+    color: red;
+}
+.footer .account
+{
+    display: inline-block;
+    transition: all .8s ease;
+}
+.footer .icon
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #040c2c;
+    border: 1px solid #fff;
+}
+.footer .account .fa-facebook ,
+.footer .account .fa-instagram,
+.footer .account .fa-twitter ,
+.footer .account .fa-telegram ,
+.footer .account .fa-whatsapp
+{
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+    padding: 7px;
+}
+.footer .account:hover 
+{
+    transition: all .8s ease;
+    transform: scale(1.5);
+}
